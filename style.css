@@ -1,0 +1,227 @@
+body{
+	background: #fff url(images/bg.jpg) top center no-repeat;
+	-webkit-background-size: 800px auto;
+	background-size: 800px auto;
+}
+
+header{
+	height:300px;
+}
+
+header .logo{
+	z-index:10;
+}
+
+.navbar{
+	border:none;
+}
+
+.navbar-header{
+	background: #000;
+	margin:0;
+}
+
+.navbar-collapse{
+	background: #ed1c24;
+	float:right;	
+}
+
+.navbar-toggle{
+	margin:0;
+	background: #ed1c24;
+	height: 50px;
+	width: 50px;
+}
+
+
+
+.navbar-toggle .icon-bar{
+	background-color:#fff;
+	margin:auto;
+}
+
+
+.navbar li a{
+	color: #fff;
+}
+
+.nav>li>a:hover, 
+.nav>li>a:focus,
+.nav li.active{
+	background: #000;
+}
+
+.header-after{
+	text-align: center;
+}
+
+.header-after p{
+		width: 95%;
+		text-align: center;
+		margin:0 auto;
+	}
+
+.header-after p span{
+		display: block;
+	}
+
+.header-after p:last-child{
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+/* Форма начало*/
+form{
+	background: #f5f5f5;
+	width:80%;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius:4px;	
+
+}
+
+form .row{
+	background: #f5f5f5;
+	padding: 10px;
+	border:1px #ccc solid;
+	margin: 0 auto;
+	border-radius:4px;
+}
+
+
+form input{
+	margin-right: 4%;
+	border-radius:4px;
+	box-shadow: none;
+	border:1px #ccc solid;
+	padding:5px !important;
+	font-size:14px !important;
+	margin-bottom: 10px;
+}
+
+form input[type="button"]{
+	background: #f00;
+	color: #fff;
+	margin-right: 0;
+	margin-bottom:0;
+	border: none;
+}
+
+.form p{
+	color: #ddd;
+	width: 80%;
+	margin:0 auto 50px;
+}
+
+/*Форма конец*/
+
+.block p{
+	margin: 20px 0;
+	position: relative;
+	text-align: justify;
+	padding-top: 20px;
+}
+
+.block p:before{
+	content:'';
+	border-top: 3px #f00 solid;
+	display: block;
+	position: absolute;
+	top: -5px;
+	left:-10px;
+	width:25%;
+}
+
+.block iframe,
+.block img{
+	width:100%;
+	margin: 20px 0;
+}
+
+.logo img{
+	display: block;
+	width:90%;
+	margin:auto;
+}
+
+footer .container{
+	border-top: 2px #5a5a5a solid;	
+}
+
+footer .row{
+	padding:20px 0;
+}
+
+.ico a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(images/ico.png) -2px -2px;
+}
+
+.twitter a{
+	background-position: -35px -2px;
+}
+
+.vk a{
+	background-position: -68px -2px;
+}
+
+.okl a{
+	background-position: -100px -2px;
+}
+
+.google a{
+	background-position: -130px -2px;
+}
+
+.liveint a{
+	background-position: -163px -2px;
+}
+
+.plus a{
+	background-position: -198px -2px;
+}
+
+
+@media screen and (min-width: 768px){
+	body{
+  -webkit-background-size: 1500px auto;
+  background-size:1500px auto;
+	}
+
+	header{
+		margin-top:50px;
+		height:450px;
+	}
+
+	.navbar{
+		margin-left:-50px;
+	}
+	
+	.navbar-collapse{
+	background: transparent;
+	}
+	.nav>li>a:hover, 
+	.nav>li>a:focus,
+	.nav li.active{
+	background: #ed1c24;
+	}
+		
+}
+
+@media screen and (min-width: 992px){
+	
+	header .logo img{
+		width: auto;
+	}
+
+	.navbar{
+		margin-left:-50px;
+	}
+
+	.header-after p{
+		width: 60%;
+	}
+}
